@@ -10,7 +10,18 @@ on:
 
     # 10:00 PM IST (16:30 UTC) - Every day
     - cron: "30 16 * * *"
+# 4:07 PM IST
+    - cron: "7 16 * * *"
+      timezone: "Asia/Kolkata"
 
+    # 5:07 PM IST
+    - cron: "7 17 * * *"
+      timezone: "Asia/Kolkata"
+
+    # 10:07 PM IST
+    - cron: "7 22 * * *"
+      timezone: "Asia/Kolkata"
+      
   # Allow manual execution from GitHub Actions
   workflow_dispatch:
 
